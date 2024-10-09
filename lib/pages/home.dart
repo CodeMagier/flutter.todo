@@ -10,13 +10,13 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   String _userTodo = '';
   List todoList = [];
- 
+
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
 
-    todoList.addAll(['milk', 'Nazif is', 'go go']);
+    todoList.addAll(['milk', 'Nazif is', 'go go' 'ich liebe dichg']);
   }
 
   void _menuOpen() {
